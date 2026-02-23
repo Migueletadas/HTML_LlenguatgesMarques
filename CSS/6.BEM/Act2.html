@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        :root{
+            --color-azul-claro: #adbfff;
+            --color-negro: black;
+        }
+        input{
+            background: var(--color-azul-claro);
+            border: 2px solid var(--color-negro);
+        }
+        textarea{
+            background: var(--color-azul-claro);
+            border: 2px solid var(--color-negro);
+        }
+        label{
+            color: #000035;
+            background: var(--color-azul-claro);
+            border: 2px solid var(--color-negro);
+        }
+        .boton{
+            border-radius: 2rem;
+            background: #213c9f;
+            color: #ffffff;
+            border: 2px solid var(--color-negro);
+        }
+    </style>
+    <h1>Formulario</h1>
+    <label>Nombre</label>
+    <br>
+    <input type="text" name="nombre">
+    <br>
+    <br>
+    <label>Email</label>
+    <br>
+    <input type="text" name="email">
+    <br>
+    <br>
+    <label>Mensaje</label>
+    <br>
+    <textarea name="anotaciones"></textarea>
+    <br>
+    <br>
+    <button class="boton" href="#">Enviar</button>
+</body>
+</html>
